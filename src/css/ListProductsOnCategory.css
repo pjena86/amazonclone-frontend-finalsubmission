@@ -1,0 +1,13 @@
+.products-by-category-card{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 150px;
+    padding-top: 100px;
+
+}
+
+.col-md-4 col-sm-6{
+    
+}

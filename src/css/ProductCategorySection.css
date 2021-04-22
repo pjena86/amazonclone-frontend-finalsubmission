@@ -1,0 +1,15 @@
+#section-category-list
+{
+    /* margin:16px 0; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     }
+
+    /* .grid grid-gap-1 grid-col-4{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 200px;
+        
+    } */
+
+    

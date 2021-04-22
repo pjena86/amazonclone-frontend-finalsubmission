@@ -1,0 +1,45 @@
+.carousel-content {
+  z-index: -20;
+  margin-bottom: -200px;
+}
+
+.a-carousel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: auto; */
+  /* grid-auto-rows: minmax(100px, auto); */
+  column-gap: 15px;
+  row-gap: 5px;
+  /* height: 80vh;  */
+  orientation: vertical;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  /* z-index: 10; */
+}
+.carousel_card {
+  position: relative;
+  width: 320px;
+  height: 400px;
+  color: rgb(226, 214, 214);
+  cursor: pointer;
+  border: 10px solid #e6edf0;
+  background-color: rgb(36, 113, 136);
+  /* z-index: -10; */
+}
+
+.card_image {
+  height: 300px;
+  width: 300px;
+  /* border-radius: 50%;  */
+
+  /* margin-top: 20px; */
+  /* box-shadow: 0 10px 50px rgb(1, 15, 27); */
+}
+.card h2 {
+  margin: 0;
+  font-size: 0.5em;
+  line-height: 1em;
+  text-align: center;
+}
+

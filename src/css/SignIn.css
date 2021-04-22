@@ -1,0 +1,112 @@
+form { 
+    /* margin: 10px 10px; */
+    border: 1px solid rgb(100, 93, 93);
+    background-color: white;
+    padding-left: 90px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    /* display:flexbox;  shrinks to fit content */
+    margin:auto;
+    box-sizing: border-box;
+
+  }
+
+h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.signin-form-container{ 
+  max-width: 950px;
+  padding-left: 460px;
+  padding-bottom:100px;
+  max-height: 600px;
+  /* margin-bottom: 150px; */
+ 
+  /* vertical-align: middle; */
+  /* align:center; */
+ }
+
+.divider {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* .divider hr {
+  margin: 7px 0px;
+  width: 85%;
+} */
+
+  /* .left { float: left; }
+
+  .right { float: right; } */
+
+.signin_logo {
+    align-self: center;
+    padding-left: 20px;
+    height: 80px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    border-radius: 2px;
+  }
+  
+  #grey-button {
+    background-color: rgb(145, 102, 38);;
+    border: 1px solid black;
+    color: black;
+  }  
+
+   #username{
+    border-radius: 2px solid black;
+    width: 300px;
+    margin-top: 20px;
+    height: 40px; 
+  } 
+
+   #signinPassword{
+    border-radius: 2px solid black;
+    width: 300px;
+    margin-top: 20px; 
+    height: 40px; 
+  }
+  #signinSubmit{
+    width: 300px;
+    margin-top: 45px;
+    background-color: rgb(145, 102, 38);
+    border-radius: 2px solid black;
+    margin-bottom: 20px;
+    height: 40px; 
+  }
+  .btn {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  h2{
+    padding-bottom: 30px;
+  }
+  signinEmail >label
+{ 
+  opacity: 0.3;
+position: absolute;
+top: 22px;
+left: 20px;
+}
+
+/* input[type=text] {
+  width: 85%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+} */
+
+.error-message 
+  {
+    display: inline;
+    color: red;
+  }

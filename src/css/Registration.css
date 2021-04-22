@@ -1,0 +1,79 @@
+form { margin: 10px 10px; 
+  padding-right: 35px;
+  background-color: white;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  /* text-align:center; */
+}
+
+.registration-form-container 
+{ max-width: 900px; 
+  max-height: 1000px;
+  padding-left: 450px;
+  padding-bottom:20px;
+  display: flexbox;
+}
+
+.divider {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.divider hr {
+  margin: 7px 0px;
+  width: 35%;
+}
+
+.left { float: left; }
+
+.right { float: right; }
+
+
+#signupSubmit {
+    background-color: rgb(145, 102, 38);
+    border: 1px solid black;
+    display: flex;
+    padding-left: 75px;
+    width: 85%;
+    /* box-sizing: border-box; */
+    text-align:centre;
+    margin-top: 50  px;
+    margin-top: 50px;
+    
+  }  
+
+  .registration_logo {
+    align-self: center;
+    padding-left: 20px;
+    height: 80px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    border-radius: 2px;
+  }
+
+  input[type=text] {
+    /* width: 85%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box; */
+    width: 300px;
+    margin-top: 20px;
+    height: 40px; 
+   
+  }
+
+   .error-message 
+  {
+    display: inline;
+    color: red;
+   
+    /* direction: rtl;
+    unicode-bidi: bidi-override; */
+  }
